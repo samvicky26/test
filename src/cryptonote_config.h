@@ -72,7 +72,8 @@ static_assert(STAKING_PORTIONS % 3 == 0, "Use a multiple of three, so that it di
 // MONEY_SUPPLY - total number coins to be generated
 #define MONEY_SUPPLY                                    10000000000000000000ULL
 #define EMISSION_SPEED_FACTOR_PER_MINUTE                (20)
-#define FINAL_SUBSIDY_PER_MINUTE                        ((uint64_t)30000000000) // 3 * pow(10, 10)#define EMISSION_LINEAR_BASE                            ((uint64_t)(1) << 58)
+#define FINAL_SUBSIDY_PER_MINUTE                        ((uint64_t)30000000000) // 3 * pow(10, 10)
+#define EMISSION_LINEAR_BASE                            ((uint64_t)(1) << 58)
 #define YEARLY_INFLATION_INVERSE                        200 // 0.5% yearly inflation, inverted for integer division
 #define EMISSION_SUPPLY_MULTIPLIER                      20
 #define EMISSION_SUPPLY_DIVISOR                         10
