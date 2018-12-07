@@ -93,7 +93,7 @@ namespace cryptonote {
 
     //premine reward
     const uint64_t premine = PREMINE;
-    if (median_size > 0 && already_generated_coins < premine) {
+    if (median_weight > 0 && already_generated_coins < premine) {
       reward = premine;
       return true;
     }
