@@ -1034,7 +1034,7 @@ namespace cryptonote
   {
     switch (decimal_point)
     {
-      case 9:
+      case 8:
       case 6:
       case 3:
       case 0:
@@ -1057,7 +1057,7 @@ namespace cryptonote
 
     switch (decimal_point)
     {
-      case 9:
+      case 8:
         return "kredits";
       case 6:
         return "megarok";
